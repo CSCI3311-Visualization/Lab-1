@@ -1,0 +1,35 @@
+.generated-content {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+img {
+  border-radius: 4px;
+  padding: 20px;
+  width: 800px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+h1 {
+  color: #d3d3d3;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 70px;
+}
+
+button {
+  background-color: #6f6259;
+  color: white;
+  font-family: Arial;
+  padding: 10px;
+}
