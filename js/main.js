@@ -28,7 +28,6 @@ let facts = [
 ];
 
 document.querySelector('#generate').onclick = function () {
-  console.log('Hello');
   let randomFact = facts[Math.floor(Math.random() * facts.length)];
 
   // CREATE NEW PARAGRAPH-TAG

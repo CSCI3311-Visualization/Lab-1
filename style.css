@@ -8,16 +8,30 @@
 
 img {
   border-radius: 4px;
-  padding: 20px;
   width: 800px;
 }
 
 .row {
   display: flex;
+  margin: 20px;
 }
 
 .column {
   flex: 50%;
+}
+
+a {
+  background: linear-gradient(to bottom, #ff9800 0%, #ff9800 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
 }
 
 h1 {
@@ -27,9 +41,11 @@ h1 {
   font-size: 70px;
 }
 
-button {
+.button {
   background-color: #6f6259;
+  border-color: #6f6259;
   color: white;
   font-family: Arial;
-  padding: 10px;
+  height: 5rem;
+  margin: 30px 0;
 }
