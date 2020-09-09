@@ -1,6 +1,6 @@
 #main-container {
-  width: 80%;
-  margin: 20px;
+  width: 70%;
+  margin: 10px 20px;
 }
 
 h1 {
@@ -36,7 +36,6 @@ p.generated-content {
 
 img {
   border-radius: 4px;
-  width: 800px;
 }
 
 a {
