@@ -6,7 +6,7 @@ h1 {
   color: #312f2f7c;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .button {
@@ -14,8 +14,7 @@ h1 {
   border-color: #6f6259;
   color: white;
   font-family: Arial;
-  height: 5rem;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 p.generated-content {
@@ -24,7 +23,6 @@ p.generated-content {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 30px;
 }
 
 img {
@@ -39,10 +37,6 @@ img {
 
 .column {
   flex: 50%;
-}
-
-p {
-  font-size: 30px;
 }
 
 a {
