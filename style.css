@@ -1,5 +1,5 @@
 #main-container {
-  width: 70%;
+  width: 80%;
   margin: 10px 20px;
 }
 
@@ -26,16 +26,17 @@ p.generated-content {
   border-radius: 4px;
 }
 
-.row {
+/* .row {
   display: flex;
 }
 
 .column {
   flex: 50%;
-}
+} */
 
 img {
   border-radius: 4px;
+  width: 100%;
 }
 
 a {
